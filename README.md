@@ -1,24 +1,35 @@
-# Markdown Guide
+# EHEPS.org
 
-*[The Markdown Guide](https://www.markdownguide.org)* is a comprehensive Markdown reference designed for both novices and experts. It was born out of frustration with existing Markdown references that are incomplete and inadequate.
+**EHEPS.org** is an international nonprofit initiative focused on **education**, **humanitarian support**, and **environmental protection**, with a strong commitment to serving communities in Afghanistan.
+
+## Overview
+
+The platform supports organizational visibility, digital outreach, partnership development, and practical technical solutions for nonprofit and humanitarian work. It is designed to strengthen communication, collaboration, and access to information for initiatives that create positive social impact.
+
+## Focus Areas
+
+- Education
+- Humanitarian response
+- Environmental protection
+- Community development
+- Digital systems for nonprofit operations
+
+## Technical Information
+
+- **Website:** [https://eheps.org](https://eheps.org)
+- **Server IP:** `162.213.255.102`
 
 ## Contributing
 
-Contributions are welcome. Feel free to open a pull request with changes.
+Contributions, suggestions, and improvements are welcome. Please feel free to open an issue or submit a pull request.
 
-### Running it Locally
+## Running Locally
 
-It can be helpful to preview changes on your computer before opening a pull request. *The Markdown Guide* uses the [Jekyll static site generator](http://jekyllrb.com/). After forking or cloning the repository, perform the following steps to generate the site and preview it:
+If this project uses Jekyll, you can run it locally with the following steps:
 
-- Make sure you have ruby installed on your computer. See https://www.ruby-lang.org/en/downloads/
-- `bundle install`
-- `bundle exec jekyll serve`
-- Point your browser at http://127.0.0.1:4000/
+1. Install [Ruby](https://www.ruby-lang.org/en/downloads/)
+2. Run:
 
-### Adding tools
-
-See [this page](https://github.com/mattcone/markdown-guide/wiki/Markdown-tool-directory) for information about adding applications to the [Markdown tools directory](https://www.markdownguide.org/tools/).
-
-## License
-
-The content of this project itself is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](LICENSE), and the underlying source code used to format and display that content is licensed under the [MIT license](LICENSE-CODE).
+   ```bash
+   bundle install
+   bundle exec jekyll serve
